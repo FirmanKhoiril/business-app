@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+.background {
+  background: linear-gradient(90deg, rgba(16, 6, 23, 1) 12%, rgba(33, 26, 36, 1) 57%, rgba(17, 12, 19, 1) 81%, rgba(0, 16, 19, 1) 100%);
+}
+
+.image {
+  border-radius: 50% 50% 64% 36% / 30% 48% 52% 70%;
+  transition: border-radius 400ms ease-in-out;
+}
+.image:hover {
+  border-radius: 71% 29% 37% 63% / 64% 75% 25% 36%;
+}
+.text-secondary {
+  font-family: "Montserrat", sans-serif;
+}
+
+.header {
+  background-image: url("./assets/sean-pollock-PhYq704ffdA-unsplash.jpg");
+}
