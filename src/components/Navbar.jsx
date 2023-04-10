@@ -28,7 +28,7 @@ const Navbar = () => {
       <div className="flex justify-around items-center">
         <div className="font-bold cursor-pointer text-lg flex items-center">
           <img src={Logo} alt="Logo" className="h-12 w-12" />
-          <h2 className="text-secondary">Crocodics</h2>
+          <h2 className="text-secondary">Mifuta Studio</h2>
         </div>
 
         <div className=" hidden text-[16px] md:flex items-center space-x-6">
@@ -55,7 +55,7 @@ const Navbar = () => {
           {!mobileOpen ? <AiOutlineMenu onClick={() => setMobileOpen((prev) => !prev)} className="text-xl text-white" /> : <AiOutlineClose onClick={() => setMobileOpen((prev) => !prev)} className="text-xl text-white " />}
 
           {mobileOpen && (
-            <div className="w-full h-screen mt-[67px] bg-black/80 top-0 right-0 p-2 fixed flex justify-end items-start flex-col">
+            <div className="w-full h-screen mt-[67px] bg-black/80 top-0 right-0 py-2  fixed flex items-start flex-col">
               <div className="flex mt-4 flex-col absolute top-0 items-center space-y-6">
                 <div>
                   <input type="text" placeholder="Search Products" className="p-2 w-56 ml-16 outline-none bg-white/20 rounded-md" />
